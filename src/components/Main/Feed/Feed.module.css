@@ -1,0 +1,17 @@
+.Feed{
+    flex: 1;
+    border-right: 1px solid var(--twitter-background);
+    background-color: #E6ECF0;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.Feed::-webkit-scrollbar{
+    width: 0;
+}
+
+@media (min-width:1280px){
+  .Feed{
+    flex: 0.5;
+  }
+}

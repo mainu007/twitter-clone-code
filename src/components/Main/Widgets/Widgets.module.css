@@ -1,0 +1,41 @@
+.Widgets{
+    flex: 0.30;
+    margin: 0 20px;
+}
+
+.SearchTwitter{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 999px;
+    background-color: var(--twitter-background);
+    border: 1px solid transparent;
+}
+.SearchTwitterFocus{
+    background-color: #fff;
+    border-color: var(--twitter-color);
+}
+.SearchIcon{
+    color: #657786;
+    padding: 10px 15px;
+    padding-right: 7px;
+}
+.SearchIconFocus{
+    color: var(--twitter-color) !important;
+}
+.SearchTwitter input{
+    outline-width: 0;
+    border: none;
+    background-color: transparent;
+    flex: 1;
+    font-size: 15px;
+}
+.SearchTwitter input::placeholder{
+    color: #657786;
+}
+.TwitterEmbedContainer{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--twitter-background);
+}

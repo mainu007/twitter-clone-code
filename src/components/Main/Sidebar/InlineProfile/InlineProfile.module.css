@@ -1,0 +1,36 @@
+.SidebarBottom{
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 8px;
+}
+.SidebarBottom:hover{
+    background-color: #e8f5fe;
+    cursor: pointer;
+}
+.ProfileLeft{
+    display: flex;
+}
+.InlineProfile{
+    margin-left: 10px;
+}
+.InlineProfile > h3{
+    font-size: 15px;
+}
+.InlineProfile > p{
+    font-size: 15px;
+    color: #657887;
+}
+.MoreIcon{
+    font-size: 26px;
+}
+
+@media (min-width:1280px){
+    .SidebarBottom{
+        align-self: stretch;
+    }
+}

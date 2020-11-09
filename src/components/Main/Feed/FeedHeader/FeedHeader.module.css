@@ -1,0 +1,36 @@
+.FeedHeader{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    border: 1px solid var(--twitter-background);
+    border-left: none;
+    border-right: none;
+    background-color: #fff;
+    z-index: 200;
+}
+
+.FeedHeaderLeft > h2{
+    font-weight: 800;
+    font-size: 20px;
+}
+.FeedHeader .Icon{
+    color: var(--twitter-color);
+    font-size: 20px;
+}
+@media (max-width:479px){
+    .FeedHeader{
+        padding: 6px 15px;
+    }
+    .FeedHeaderLeft{
+        display: flex;
+        align-items: center;
+    }
+    .FeedHeaderLeft > h2{
+        font-size: 19px;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+.SidebarOption{
+    display: flex;
+    margin: 12px 0;
+}
+.SidebarOptionInner{
+    display: flex;
+    align-items: center;
+}
+.SidebarOptionInner:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    cursor: pointer;
+    transform: color 100ms ease-in;
+}
+.SidebarOption  .Icon{
+    font-size: 26px !important;
+    padding: 10px !important;
+}
+.SidebarOption h2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.SidebarOptionActive{
+    color: var(--twitter-color);
+}
+
+/* @media (min-width:1280px){
+    .SidebarOption h2{
+        display: inherit;
+    }
+} */

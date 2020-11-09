@@ -1,0 +1,48 @@
+.MessageSender{
+    display: flex;
+    padding: 10px 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.MessageRight{
+    flex: 1;
+}
+.Avatar{
+    width: 50px !important;
+    height: 50px !important;
+}
+.MessageForm input{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 13px 0 13px 10px;
+    width: 100%;
+}
+.ImageUrlInput{
+    font-size: 15px !important;
+}
+.MessageForm input::placeholder{
+    color: #657786;
+}
+
+.MessageBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.IconButton{
+    color: var(--twitter-color);
+    padding: 8px;
+}
+.TweetButton{
+    background-color: rgb(29, 161, 242) !important;
+    color: #fff !important;
+    text-transform: inherit !important;
+    font-weight: 900 !important;
+    width: 78px !important;
+    border-radius: 999px !important;
+}
+.TweetButton:disabled{
+    background-color: #8ED0F8 !important;
+    color: #FDFEFF;
+}
